@@ -1,0 +1,10 @@
+#logo{
+    text-align: center;
+    background-color: #FFFBF2;
+}
+#topMenu ul{
+  list-style-type:none;
+}
+#topMenu ul li{
+  display:inline;
+}
