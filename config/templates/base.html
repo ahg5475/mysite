@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="static/css/style.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <title>{% block title %}다빠져{% endblock %}</title>
+</head>
+<body bgcolor="#FFFBF2">
+{% block content %}
+<h1 id="logo"><img src="static/img/logo.jpg" width="300" height="150"/> </h1>
+  <div id="topMenu" >
+    <ul>
+        <li class="manulink"><a href=" ">Home</a></li>
+        <li class="manulink"><a href="fatCalculator">비만도 계산기</a></li>
+        <li class="manulink"><a href="training" >홈 트레이닝</a></li>
+        <li class="manulink"><a href="#">게시판</a></li>
+        <li class="manulink"><a href="#">my page</a></li>
+    </ul>
+  </div>
+{% endblock %}
+</body>
